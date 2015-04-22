@@ -12,4 +12,6 @@ Meteor.startup(function(){
   // Generate Test Accounts
   generateTestAccounts();
 
+  configureTwitter();
+
 });
