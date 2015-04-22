@@ -24,3 +24,7 @@ Router.route('connect-to-twitter', {
     path: '/connect-to-twitter',
     template: 'connectToTwitter'
 });
+Router.route('dashboard.new', {
+    path: '/dashboard/new',
+    template: 'newDashboard'
+});
