@@ -13,3 +13,9 @@
 UI.registerHelper('currentRoute', function(route){
   return Session.equals('currentRoute', route) ? 'active' : '';
 });
+
+UI.registerHelper("autolink", function(tweet) {
+    return twttr.txt.autoLink(tweet.text, {
+        urlEntities: tweet.entities.urls
+    });
+});

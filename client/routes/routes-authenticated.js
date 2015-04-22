@@ -28,3 +28,11 @@ Router.route('dashboard.new', {
     path: '/dashboard/new',
     template: 'newDashboard'
 });
+
+Router.route('dashboard.show', {
+    path: '/dashboard/:_id',
+    template: 'showDashboard',
+    waitOn: function() {
+        return Meteor.subscribe('singleDashboard', this.params._id);
+    }
+});
