@@ -4,3 +4,8 @@
 # Configuration
 settings-production.json
 npm-debug.log
+
+
+.idea/
+.eclipse/
+*.iml
