@@ -14,4 +14,6 @@ Meteor.startup(function(){
 
   configureTwitter();
 
+    new TwitterStreamListener.start();
+
 });
