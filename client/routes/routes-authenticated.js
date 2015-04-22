@@ -20,3 +20,7 @@ Router.route('index', {
     this.next();
   }
 });
+Router.route('connect-to-twitter', {
+    path: '/connect-to-twitter',
+    template: 'connectToTwitter'
+});
