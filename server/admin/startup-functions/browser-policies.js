@@ -6,4 +6,6 @@
 
 customBrowserPolicies = function() {
   BrowserPolicy.content.allowImageOrigin("*.twimg.com");
+  BrowserPolicy.content.allowOriginForAll("*.inspectlet.com");
+  BrowserPolicy.content.allowOriginForAll("*.mxpnl.com");
 }

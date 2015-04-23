@@ -2,7 +2,7 @@ Meteor.publish('singleDashboard', function(id) {
   check(id, String);
 
   if (!this.userId) {
-    self.ready();
+    this.ready();
     return null;
   }
   return Dashboard.find({
@@ -15,7 +15,7 @@ Meteor.publish('singleDashboard', function(id) {
 Meteor.publish("tweets", function(dashboardId) {
   check(dashboardId, String);
   if (!this.userId) {
-    self.ready();
+      this.ready();
     return nul;
   }
   return Tweets.find({

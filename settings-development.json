@@ -1,12 +1,22 @@
 {
   "public": {
-    "key": "value"
+      "inspectlet": {
+          "id": "1300178855"
+      }    ,
+      "mixpanel": "d28c6534bfab425bf44e7d0a42739b04"
   },
   "app_keys": {
     "twitter": {
       "service": "twitter",
-      "consumerKey": "2TSH7rq1LJcdhi2GxfXBrKLqf",
-      "secret": "LxIbGXCk3nugssq3vqAlDE9gsYkON1nYQWvvoJvQKBHDXTncum"
+      "consumerKey": "PZEeZgP9eIpXi88sm1HhZC3vs",
+      "secret": "3lYI8hhr4X3hq1Z83Bl82SAaoSlgKh1v26iMXSDKI0Zp4EEn2U"
     }
-  }
+  }   ,
+    "kadira": {
+        "appId": "wsww49fW9hjDZ8St5",
+        "appSecret": "6306dda4-1005-4235-80ef-214527e9710a",
+        "options": {
+
+        }
+    }
 }

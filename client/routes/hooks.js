@@ -47,3 +47,11 @@ Router.onBeforeAction(checkUserLoggedIn, {
     'reset-password'
   ]
 });
+
+logMixpanel = function(){
+    if( !Meteor.loggingIn() && Meteor.user() ){
+        mixpanel.track(Router.current().route.getName());
+    }
+};
+
+Router.onAfterAction(logMixpanel);
